@@ -76,30 +76,6 @@ export class ImageHub {
         small_dead: ["img/3_enemies_chicken/chicken_small/2_dead/dead.png"],
     };
 
-    static LAYERS = {
-        clouds: [
-            "img/5_background/layers/4_clouds/1.png",
-            "img/5_background/layers/4_clouds/2.png",
-            "img/5_background/layers/4_clouds/full.png",
-        ],
-        first_layer: [
-            "img/5_background/layers/1_first_layer/1.png",
-            "img/5_background/layers/1_first_layer/2.png",
-            "img/5_background/layers/1_first_layer/full.png",
-        ],
-        second_layer: [
-            "img/5_background/layers/2_second_layer/1.png",
-            "img/5_background/layers/2_second_layer/2.png",
-            "img/5_background/layers/2_second_layer/full.png",
-        ],
-        third_layer: [
-            "img/5_background/layers/3_third_layer/1.png",
-            "img/5_background/layers/3_third_layer/2.png",
-            "img/5_background/layers/3_third_layer/full.png",
-        ],
-        air: ["img/5_background/layers/air.png"],
-    };
-
     static END_BOSS_CHICKEN = {
         walk: [
             "img/4_enemie_boss_chicken/1_walk/G1.png",
@@ -139,5 +115,28 @@ export class ImageHub {
         ],
     };
 
+    static LAYERS = {
+        clouds: [
+            "img/5_background/layers/4_clouds/1.png",
+            "img/5_background/layers/4_clouds/2.png",
+            "img/5_background/layers/4_clouds/full.png",
+        ],
+        first_layer: [
+            "img/5_background/layers/1_first_layer/1.png",
+            "img/5_background/layers/1_first_layer/2.png",
+            "img/5_background/layers/1_first_layer/full.png",
+        ],
+        second_layer: [
+            "img/5_background/layers/2_second_layer/1.png",
+            "img/5_background/layers/2_second_layer/2.png",
+            "img/5_background/layers/2_second_layer/full.png",
+        ],
+        third_layer: [
+            "img/5_background/layers/3_third_layer/1.png",
+            "img/5_background/layers/3_third_layer/2.png",
+            "img/5_background/layers/3_third_layer/full.png",
+        ],
+        air: ["img/5_background/layers/air.png"],
+    };
 
 }

@@ -1,9 +1,9 @@
+import { Character } from "./models/character.class.js";
 import { MovableObject } from "./models/moveable-object.class.js";
-
 
 let canvas;
 let context;
-let character = new MovableObject();
+let character = new Character();
 
 function init() {
     canvas = document.getElementById('canvas');

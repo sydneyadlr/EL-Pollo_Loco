@@ -1,0 +1,14 @@
+import { MovableObject } from "./movable-objects.class.js";
+import { World } from "./world.class.js";
+
+export class BackgroundObject extends MovableObject {
+    width = 720;
+    height = 480;
+
+    constructor(imagePath, x) {
+        super();
+        this.loadImage(imagePath);
+        this.x = x;
+        this.y = 480 - this.height;
+    }
+}
